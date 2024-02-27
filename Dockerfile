@@ -5,8 +5,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-# RUN bun install
-
+RUN bun install
 # FROM base AS release
 
 USER bun
